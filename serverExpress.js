@@ -2,7 +2,7 @@ const Contenedor = require("./Contenedor");
 const express = require('express');
 const app = express();
 
-/*  Recordar que sea 8080 para glitch.me  */
+
 const PORT = 8080;
 const contenedor = new Contenedor("productos.json");
 
